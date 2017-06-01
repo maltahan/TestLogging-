@@ -17,7 +17,7 @@ namespace TestLogging
 
             traceSource.TraceEvent(TraceEventType.Start, (int)TestLogging.Logging.Logging.EventId.Start, "Started");
 
-            traceSource.TraceEvent(TraceEventType.Start, (int)TestLogging.Logging.Logging.EventId.Start, "SUCCEEDED");
+            traceSource.TraceEvent(TraceEventType.Stop, (int)TestLogging.Logging.Logging.EventId.Stop, "SUCCEEDED");
         }
     }
 }
